@@ -1,0 +1,123 @@
+.root {
+    -fx-font-family: 'Segoe UI', Arial, sans-serif;
+    -fx-font-size: 14px;
+}
+
+.button {
+    -fx-background-radius: 5;
+    -fx-padding: 8 15;
+    -fx-cursor: hand;
+    -fx-transition: all 0.2s;
+}
+
+.button:hover {
+    -fx-opacity: 0.9;
+}
+
+.text-field {
+    -fx-background-radius: 5;
+    -fx-padding: 8;
+    -fx-border-color: #e0e0e0;
+    -fx-border-radius: 5;
+}
+
+.combo-box {
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: #e0e0e0;
+}
+
+.combo-box .list-cell {
+    -fx-padding: 8;
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-background-radius: 5;
+    -fx-border-color: #e0e0e0;
+    -fx-border-radius: 5;
+}
+
+.table-view .column-header {
+    -fx-background-color: #f5f5f5;
+    -fx-padding: 10;
+}
+
+.table-view .table-row-cell {
+    -fx-padding: 5;
+}
+
+.table-view .table-row-cell:odd {
+    -fx-background-color: #fafafa;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #2196f3;
+    -fx-text-fill: white;
+}
+
+.chart {
+    -fx-padding: 10;
+    -fx-background-color: white;
+    -fx-background-radius: 5;
+    -fx-border-color: #e0e0e0;
+    -fx-border-radius: 5;
+}
+
+.chart-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.axis-label {
+    -fx-font-size: 12px;
+}
+
+.chart-legend {
+    -fx-background-color: transparent;
+}
+
+.default-color0.chart-bar { -fx-bar-fill: #2196f3; }
+.default-color1.chart-bar { -fx-bar-fill: #4caf50; }
+.default-color2.chart-bar { -fx-bar-fill: #ff9800; }
+
+.default-color0.chart-series-line { -fx-stroke: #2196f3; }
+.default-color1.chart-series-line { -fx-stroke: #4caf50; }
+.default-color2.chart-series-line { -fx-stroke: #ff9800; }
+
+.pie-chart {
+    -fx-padding: 10;
+}
+
+.chart-pie {
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+}
+
+.titled-pane {
+    -fx-background-color: white;
+    -fx-background-radius: 5;
+}
+
+.titled-pane > .title {
+    -fx-background-color: #f5f5f5;
+    -fx-background-radius: 5 5 0 0;
+    -fx-padding: 10;
+}
+
+.grid-pane {
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+    -fx-padding: 10;
+}
+
+.label {
+    -fx-text-fill: #333333;
+}
+
+.status-label {
+    -fx-padding: 5 10;
+    -fx-background-color: #e8e8e8;
+    -fx-background-radius: 5;
+    -fx-text-fill: #333333;
+} 
